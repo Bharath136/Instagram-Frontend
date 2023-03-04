@@ -1,0 +1,90 @@
+.register-form-container{
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.register-form-card-container{
+    border: 1px solid rgb(205, 205, 205);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+@media screen and (max-width:767px) {
+    .register-form-card-container{
+        width: 100%;
+        border: 0;
+        padding: 20px 30px;
+    }
+}
+
+.register-form{
+    width: 100%;
+    margin-top: 20px;
+} 
+
+.register-logo{
+    width: 220px;
+}
+@media screen and (max-width:767px) {
+    .register-logo{
+        width: 200px;
+    }
+}
+
+
+.register-description{
+    font-size: 18px;
+    font-weight: 600;
+    color: #9a9a9a;
+    margin: 0;
+}
+
+.input-field{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(205, 205, 205);
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.description{
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+
+.register-button{
+    height: 36px;
+    outline: none;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 0;
+    background-color: rgb(73, 173, 255);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-text{
+    margin: 0;
+    font-size: 16px;
+} 
+
+.login-link{
+    text-decoration: none;
+}

@@ -1,0 +1,115 @@
+.login-form-container{
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.login-form-card-container{
+    border: 1px solid rgb(205, 205, 205);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+@media screen and (max-width:767px) {
+    .login-form-card-container{
+        width: 100%;
+        border: 0;
+        padding: 20px 30px;
+    }
+}
+
+.login-form{
+    width: 100%;
+    margin-top: 20px;
+} 
+
+.login-logo{
+    width: 220px;
+}
+@media screen and (max-width:767px) {
+    .login-logo{
+        width: 200px;
+    }
+}
+
+
+.login-input-field{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(205, 205, 205);
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+
+.login-button{
+    height: 36px;
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 0;
+    background-color: rgb(73, 173, 255);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-text{
+    margin: 0;
+    font-size: 16px;
+} 
+
+.forgaot-password{
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+    margin: 20px 0;
+}
+
+.login-with-facebook-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0263d8;
+    cursor: pointer;
+}
+
+.icon{
+    color: #0263d8;
+    height: 24px;
+    width: 24px;
+}
+
+.checkbox-input{
+    height: 18px;
+    width: 18px;
+    border: none;
+}
+
+.register-link{
+    text-decoration: none;
+}

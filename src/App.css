@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  width: 100%;
+  margin: 0;
+}
+@media screen and (max-width:767px) {
+  .App{
+    margin-right: 0;
+    width: 100vw;
+  }
 }
 
 .App-logo {
